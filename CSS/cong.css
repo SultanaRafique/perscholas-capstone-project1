@@ -1,0 +1,45 @@
+body {
+    
+    background-color:rgb(216, 223, 231);
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+}
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    text-align: center;
+    margin-top: 150px;
+}
+button, input, textarea{
+    font-family: 'Quicksand', sans-serif;
+}
+article {
+    font-size: 20px;
+}
+
+a:link{
+    text-decoration: none;
+   
+  }
+  a{
+    color:rgb(216, 223, 231);
+    font-size:large;
+  
+  }
+  .navbar{
+    background-color:rgb(30,144,255);
+    height: 70px;
+    padding-left: 50px;
+    padding-top: 50px;
+    border-radius: 5px;
+  }
+  @media only screen and (max-width: 600px) {
+    .container{
+        margin-top: 70px;
+        
+    }
+    
+  }

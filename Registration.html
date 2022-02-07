@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Registration</title>
+   <link rel="stylesheet" href="CSS/reg.css" />
+
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+
+
+  <nav class="navbar navbar-expand-md">
+    <a class="navbar-brand" href="home.html">Home</a>
+</nav>
+
+
+    <div class="container">
+   <article>
+      <h2>User Registration</h2>
+      <form action="Congrats.html"  novalidate="false">
+        <div id="errorText"></div> 
+        <fieldset id="registerinfo">
+          <label for="fname">
+            First Name
+          </label>
+          <br>
+          <input type="text" id="fname" name="fname" required="required" placeholder="Enter your First Name" />
+          <br>
+          <label for="lname">
+            Last Name
+          </label>
+          <br>
+          <input type="text" id="lname" name="lname" required="required"  placeholder="Enter your Last Name"/>
+          <br>
+
+          <label for="Email">
+            Email
+          </label>
+          <br>
+          <input type="text" id="email" name="email" required="required"  placeholder="Enter your Email"/>
+
+          <br>
+          <label for="Comments">
+            Comments
+          </label>
+          <br>
+          <textarea type="text" id="comments" name="comments" required="required"  placeholder="Enter your comments"></textarea>
+
+        </fieldset>
+
+        <fieldset id="submitsection">
+          <input type="submit" id="submitBtn" value="Register"  onlick="congMessage"/>
+        </fieldset>
+     </form>
+
+   </article>
+   <script src="js/Registration.js"></script>
+</div>
+</body>
+</html>

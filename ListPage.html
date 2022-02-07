@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8" />
+   <meta id="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Location list</title>
+   <link rel="stylesheet" href="CSS/List.css" />
+
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+ 
+</head>
+
+<body>
+
+   <nav class="navbar">
+      <a class="navbar-brand" href="home.html">Home</a>
+  </nav>
+
+
+   <article >
+      <div class = "container"> 
+         <div class="container-item">
+            
+               <p>Create list of your favourite places just by inserting postal code.</p>
+               <p>City and state names will appear itself.</p>
+               <p>You can also move names up and down of the list.</p>
+               <p>After inserting 4 postal codes you can submit the list.</p>
+               <p>Submission will direct you to registartion page.</p>
+            
+         </div>
+      <div class="container-item">
+      <h2>Create List of Your Favourite  Cities</h2>
+      <form>
+         <div id="errorText"></div> 
+         <fieldset id="zipset">
+            <label for="zip" id="ziplabel">Postal Code</label>
+            <input id="zip" type="number"  placeholder="Enter zipcode."/>
+         </fieldset>
+
+         <fieldset id="csset">
+            <label for="city" id="citylabel">City</label>
+            <input id="city" type="text" />
+            <br>
+            <label for="state" id="statelabel">State</label>
+            <input id="state" type="text" />
+            <br><br>
+            <input type="button" id="button" value="Add Item" />
+         </fieldset>
+      </form>
+   </div>
+      <div class="container-item" width= "600px">
+      <div id="results">
+         <ol></ol>
+      </div>
+   </div>
+</div>
+   </article>
+
+   <script src="js/ListScript.js"></script>
+
+</body>
+</html>

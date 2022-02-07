@@ -1,0 +1,145 @@
+body {
+    
+    background-color:rgb(216, 223, 231);
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+    align-items: center;
+    align-content: center;
+}
+h2{
+    text-align: center;
+}
+
+.container {
+  width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    border-radius: 5px;
+    
+    padding: 20px;
+    
+  }
+  .container-item{
+    width: 400px;
+    padding-left: 20px;
+    padding-right: 20px;
+      flex:1;
+  }
+  fieldset{
+      border-color: rgb(216, 223, 231);
+      border-top: hidden;
+      border-bottom: hidden;
+      border-left: hidden;
+      border-right: hidden;
+  }
+
+  input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=button] {
+    width: 100%;
+    background-color:rgb(30,144,255);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button[type=submit] {
+    width: 100px;
+    background-color:rgb(30,144,255);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: center;
+    margin-left: 50px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+li{
+    line-height: 3;
+}
+
+
+li span.first {
+    
+    background: rgb(41, 177, 240);
+    color: white;
+    padding: 8px 20px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 5px;
+ }
+ 
+ li span.last {
+    background: red;
+    color: white;
+    padding: 8px 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+ }
+
+ button, input, textarea{
+  font-family: 'Quicksand', sans-serif;
+}
+@media only screen and (max-width: 600px) {
+  .container{
+    width: 500px;
+    display: flex;
+    flex-direction: column !important ;
+
+  }
+
+  .flex-item  {
+    width: 300px;
+    align-items: center;
+    flex : 1;
+    margin-left: auto;
+    margin-right:auto ;
+  }
+
+}
+
+a:link{
+  text-decoration: none;
+ 
+}
+a{
+  color:rgb(216, 223, 231);
+  font-size:large;
+
+}
+
+
+
+.navbar{
+  background-color:rgb(30,144,255);
+  height: 70px;
+  padding-left: 50px;
+  padding-top: 50px;
+  border-radius: 5px;
+}

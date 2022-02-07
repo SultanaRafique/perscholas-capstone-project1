@@ -1,0 +1,32 @@
+body{
+    background-color:rgb(216, 223, 231);
+    font-family: 'Quicksand', sans-serif;
+}
+
+.jumbotron{
+    background-color:rgb(30,144,255);
+    color:white;
+
+}
+
+.img-full{
+    width: 350px;
+    height: 250px;
+    border:1px solid #ccc;
+}
+
+.table tbody tr:nth-child(odd){
+    background-color:seashell;
+}
+
+.text-center button{
+    background-color:rgb(30,144,255);
+}
+button, input, textarea{
+    font-family: 'Quicksand', sans-serif;
+}
+.navbar{
+    border-radius: 5px;
+}
+
+

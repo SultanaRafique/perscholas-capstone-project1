@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: capstone1deploy
+  labels:
+    app: capstone1app
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: capstone1app
+  template:
+    metadata:
+      labels:
+        app: capstone1app
+    spec:
+      containers:
+      - name: capstonepod
+        image: srafique001/capstone1
+        ports:
+        - containerPort: 8080
